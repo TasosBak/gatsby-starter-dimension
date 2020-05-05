@@ -29,28 +29,32 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
+
+          <h3>
+            Γιατί να φτιάξω επαγγελματική ιστοσελίδα? Τι κερδίζω φτιάχνοντας
+            ιστοσελίδα?
+          </h3>
+          <h5>Μια σύγχρονη ιστοσελίδα, δείχνει μια σύγχρονη επιχείρηση!</h5>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Η επιχείρησή σας, η εταιρεία σας, δε θα πρέπει να είναι μόνο
+            σύγχρονη, θα πρέπει να δείχνει και σύγχρονη! Στην εποχή που το
+            internet είναι ηγέτης στην επικοινωνία και στην προώθηση – διαφήμιση
+            προϊόντων και υπηρεσιών και μικροί μεγάλοι έχουν διαρκή ενασχόληση
+            με αυτό, είτε για λόγους εργασίας, είτε για λόγους ψυχαγωγίας, εσείς
+            και η επιχείρησή σας, μπορείτε να απέχετε από αυτό? Φτιάχνοντας μια
+            ιστοσελίδα, έχει τη θέση της και η επιχείρησή σας στη μεγάλη αγορά
+            του διαδικτύου.
           </p>
+          <h5>
+            Έχοντας ιστοσελίδα, αυξάνεται η αξιοπιστία και το image της
+            εταιρείας σας
+          </h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            Πόσοι πελάτες εμπιστεύονται πια επιχειρήσεις που δεν έχουν
+            διαδικτυακή παρουσία, όταν εκατομμύρια χρήστες του internet κάθε
+            λεπτό, αναζητούν και μια υπηρεσία ή ένα προϊόν στο διαδίκτυο? Γιατί
+            να μη δουν και την εταιρεία σας μέσα σε αυτήν τη μεγάλη αγορά? Γιατί
+            να μη γνωρίζουν την επιχείρησή σας μέσα από την ιστοσελίδα σας?
           </p>
           {close}
         </article>
@@ -63,23 +67,22 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
+          <h3>
+            Γιατί να φτιάξω επαγγελματική ιστοσελίδα? Τι κερδίζω φτιάχνοντας
+            ιστοσελίδα?
+          </h3>
+          <h5>H κατασκευή της ιστοσελίδας φέρνει κέρδη!</h5>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            Γιατί να μην αγοράσουν τις δικά σας προϊόντα και τις δικές σας
+            υπηρεσίες στο διαδίκτυο? Γιατί να μην αυξήσετε τις πωλήσεις και τα
+            κέρδη σας? Χιλιάδες πελάτες σας περιμένουν στο web.
           </p>
+          <h5>Ανοιχτή επιχείρηση 24 ώρες τη μέρα κάθε μέρα χωρίς έξοδα!</h5>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            Τέρμα τα ωράρια και οι μισθοί! Με μια ιστοσελίδα είσαστε διαρκώς
+            ανοιχτά σε όλους τους ιντερνετικούς χρήστες, που επισκέπτονται την
+            επιχείρησή σας κάθε στιγμή, γνωρίζουν τις υπηρεσίες σας και τα
+            προϊόντα σας, χωρίς να χρειάζεται να πληρώνετε υπαλλήλους και έξοδα.
           </p>
           {close}
         </article>
@@ -92,17 +95,32 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
+          <h3>
+            Στην κατασκευή ιστοσελίδας χρειάζεστε έμπειρους, αξιόπιστους
+            επαγγελματίες
+          </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Χρειάζεστε τους ανθρώπους της WebRiders που να μην έχουν μόνο
+            τεχνικές γνώσεις, αλλά να ξέρουν την αγορά και τον παλμό των
+            χρηστών, ώστε η ιστοσελίδα σας να αποτελεί για την εταιρεία σας, το
+            πιο δυνατό εργαλείο web Marketing. Σας βοηθάμε να εκμεταλλευτείτε το
+            διαδίκτυο σωστά! Αξιοποιούμε δυναμικά κάθε νέα τεχνολογία για τη
+            σωστή επιχειρηματική προβολή σας! Ενισχύστε το επιχειρηματικό σας
+            προφίλ, εξασφαλίστε το μέλλον της επιχείρησής σας, αποκτώντας ένα
+            δυναμικό website. Κατασκευάζουμε σύγχρονες δυναμικές ιστοσελίδες με
+            σύστημα διαχείρισης περιεχομένου CMS που φέρνουν εντυπωσιακό
+            αποτέλεσμα, είναι απόλυτα φιλικές και λειτουργικές στους επισκέπτες
+            σας και επιτρέπουν την προσθήκη και ανανέωση της ιστοσελίδας με
+            απλές ενέργειες από τον ίδιο τον ιδιοκτήτη της ιστοσελίδας χωρίς να
+            χρειάζεται να έχει τεχνικές γνώσεις.
+          </p>
+          <p>
+            Προσφέρουμε συμβουλευτικές υπηρεσίες διαδικτύου με σκοπό να
+            ενημερωθείτε για οτιδήποτε σχετικό με την ιστοσελίδα που θέλετε να
+            κατασκευάσετε ή με την ιστοσελίδα που ήδη διαθέτετε. Συζητήστε μαζί
+            μας για τις προοπτικές που υπάρχουν για τη δική σας επιχείρηση στο
+            χώρο του διαδικτύου. Φροντίζουμε να ξεχωρίσει η επιχείρησή σας!
+            Φροντίζουμε να ξεχωρίσει η ιστοσελίδα σας!
           </p>
           {close}
         </article>
