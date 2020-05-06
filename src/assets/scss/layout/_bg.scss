@@ -46,7 +46,7 @@
   }
 
   &:after {
-    @include vendor('transform', 'scale(1.125)');
+    @include vendor('transform', 'scale(1.025)');
     @include vendor(
       'transition',
       (
