@@ -28,7 +28,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Ψηφιοποίηση επιχείρησης</h2>
+          <h2 className="major">εισαγωγη</h2>
 
           <h3>Τι μπορει να προσφερει μια ιστοσελιδα στην επιχειρηση σας;</h3>
           <h5>Μια συγχρονη ιστοσελιδα, δειχνει μια συγχρονη επιχειρηση!</h5>
@@ -63,7 +63,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Ψηφιοποιηση επιχειρησης</h2>
+          <h2 className="major">Γιατι website</h2>
           <h3>Τι μπορει να προσφερει μια ιστοσελιδα στην επιχειρηση σας;</h3>
 
           <h4>Προσθετει εξτρα κυρος και αξιοπιστια.</h4>
